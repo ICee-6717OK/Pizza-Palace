@@ -19,12 +19,12 @@ $(document).ready(function() {
     var allCharge = parseInt($("#tt-charge").html());
 
     if (delivery === "deliver") {
-      alert(`Thanks for shopping with Downtown Pizza.
-      Your total charge is ${allCharge + 300}/=
+      alert(`Thanks for shopping with Pizza Palace.
+      Your total charge is ${allCharge + 250}/=
       Your delivery is en-route to ${location}`);
-    // } else {
-    //   alert(`Thanks for shopping with Downtown Pizza.
-    //   Your total charge is ${allCharge}`);
+    } else {
+       alert(`Thanks for shopping with Downtown Pizza.
+       Your total charge is ${allCharge}`);
     }
   });
 
@@ -41,7 +41,7 @@ $(document).ready(function() {
 function PizzaOrder(pizzaSize, pizzaCrust, pizzaToppings, pizzaCount) {
   this.size = pizzaSize;
   this.crust = pizzaCrust;
-  this.toppings = pizzaToppings; //toppings array
+  this.toppings = pizzaToppings; 
   this.count = pizzaCount;
 }
 
