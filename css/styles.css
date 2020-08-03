@@ -21,9 +21,11 @@ body {
 } 
 #pizzacart{
   color: white;
+  float:right;
+  clear:left;
 }
 #pizza{
-  width: 50%;
-  height:50%;
+  width: 30%;
+  height: 30%;
   float:right;
 }

@@ -23,7 +23,7 @@ $(document).ready(function() {
       Your total charge is ${allCharge + 250}/=
       Your delivery is en-route to ${location}`);
     } else {
-       alert(`Thanks for shopping with Downtown Pizza.
+       alert(`Thanks for shopping with Pizza Palace.
        Your total charge is ${allCharge}`);
     }
   });
