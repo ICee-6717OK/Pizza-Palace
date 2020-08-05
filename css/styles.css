@@ -39,3 +39,8 @@ body {
   height:auto;
   width:100%;
 }
+.justify-content-around {
+  -ms-flex-pack: distribute !important;
+  justify-content: space-around !important;
+  background-image: url('../images/bg.jpg');
+}
