@@ -34,3 +34,8 @@ body {
   clear:left;
   padding-bottom:21%;
 }
+#check{
+  float: right;
+  height:auto;
+  width:100%;
+}
