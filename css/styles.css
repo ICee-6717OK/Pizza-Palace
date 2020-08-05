@@ -20,9 +20,17 @@ body {
   background-attachment: fixed;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: larger;
+  text-shadow: 0.5px 0.5px 0.5px burlywood;
 } 
+.jumbotron h3{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5em;
+  text-shadow: 2px 2px 1px burlywood;
+}
 #pizzacart{
   color: white;
   float:right;
   clear:left;
+  padding-bottom:21%;
 }
