@@ -14,10 +14,12 @@ body {
 
 .jumbotron{
   background-image: url("../images/julioo.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: repeat;
   color: black;
   background-attachment: fixed;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
 } 
 #pizzacart{
   color: white;
