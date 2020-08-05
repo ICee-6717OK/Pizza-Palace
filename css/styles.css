@@ -38,6 +38,7 @@ body {
   float: right;
   height:auto;
   width:100%;
+  padding-top:10px;
 }
 .justify-content-around {
   -ms-flex-pack: distribute !important;
