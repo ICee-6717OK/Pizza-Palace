@@ -48,3 +48,6 @@ body {
   background-size: cover;
   color:burlywood;
 }
+#checkoutBtn{
+  padding:10px 0;
+}
