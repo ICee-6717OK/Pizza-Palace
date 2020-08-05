@@ -43,4 +43,6 @@ body {
   -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
   background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
