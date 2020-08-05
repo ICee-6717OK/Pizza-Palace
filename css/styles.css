@@ -13,8 +13,8 @@ body {
 }
 
 .jumbotron{
-  background-image: url("images/bg.jpg");
-  background-size: cover;
+  background-image: url("../images/julio.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   color: black;
   background-attachment: fixed;
